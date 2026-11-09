@@ -1,0 +1,17 @@
+{
+  "weights": "surgnet.tipnet.pt",
+  "imgsz": 640,
+  "conf": 0.6,
+  "conf_by_class": {
+    "bipolar": 0.6,
+    "scissors": 1.01,
+    "suction": 1.01
+  },
+  "max_det": 10,
+  "top_k": null,
+  "tta": [
+    "h",
+    "v",
+    "hv"
+  ]
+}

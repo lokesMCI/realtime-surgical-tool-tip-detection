@@ -1,0 +1,19 @@
+# Data, derived data and model files never go in this repository
+data/
+work/
+runs/
+*.pt
+*.pth
+*.onnx
+*.engine
+*.safetensors
+*.xml
+*.jpg
+*.jpeg
+*.png
+*.mp4
+results*.json
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store

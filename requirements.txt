@@ -1,0 +1,9 @@
+torch>=2.4
+torchvision
+numpy
+scipy
+opencv-python>=4.9
+tqdm
+timm>=1.0                # DINOv2 backbone
+ultralytics>=8.4         # YOLO26-pose baseline only (AGPL-3.0)
+albumentations>=2.0      # augmentation for the YOLO baseline
